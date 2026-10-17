@@ -1,11 +1,8 @@
-# Miata flipbook edit
+# Miata flipbook edit (v2)
 
-30s, 12fps, 1920x1080. NA -> NB -> NC -> ND; pencil flipbook turns into colour film around the NC.
+`out/miata_v2.mp4`: 30.0s, 12fps, 1080x1920 vertical. Cut-out Miatas locked centre-frame, a different car every frame (sorted by paint colour), NA -> NB -> NC -> ND; retro sun background and film look swap on the beat. Ends on a red ND hero.
 
-- `tools/fetch.py OUT N` pulls CC photos per generation from Wikimedia Commons (rate limited; rerun if a generation comes back empty).
-- `tools/render.py SCRATCH [frames]` renders `SCRATCH/frames/*.png` (144 BPM = 5 frames per beat; zoom punch on beats, flash on bars).
-- `tools/beat.py out.wav 30` placeholder synth beat.
-- `out/CREDITS.tsv` photo attribution (required by CC BY / BY-SA; include in your contest post).
+Music: "Disco Medusae" by Kevin MacLeod (incompetech.com), CC BY 4.0, 1:13.6 to 1:43.6.
+Photo attribution: `out/CREDITS.tsv` (CC BY / BY-SA requires credit in your post).
 
-Assemble:
-`ffmpeg -framerate 12 -i frames/%04d.png -i beat.wav -c:v libx264 -tune grain -crf 24 -pix_fmt yuv420p -c:a aac -t 30 out.mp4`
+Pipeline: `fetch2.py` (Wikimedia Commons) -> `cutout.py` (rembg + quality filter) -> `sheet.py` (eyeball check) -> `render2.py` -> ffmpeg (see commit history for flags).
