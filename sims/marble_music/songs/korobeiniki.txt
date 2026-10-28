@@ -1,0 +1,16 @@
+# "Korobeiniki", Russian folk song (melody 19th c.). Public domain. Own transcription.
+# Do not use the word "Tetris" in titles or tags (trademark).
+title: Korobeiniki
+composer: Traditional
+bpm: 150
+beat: q
+repeat: 2
+notes:
+E5/q B4/e C5/e D5/q C5/e B4/e
+A4/q A4/e C5/e E5/q D5/e C5/e
+B4/q. C5/e D5/q E5/q
+C5/q A4/q A4/q r/q
+r/e D5/q F5/e A5/q G5/e F5/e
+E5/q. C5/e E5/q D5/e C5/e
+B4/q B4/e C5/e D5/q E5/q
+C5/q A4/q A4+A3/h

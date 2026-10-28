@@ -1,0 +1,11 @@
+{"week": 1, "start": "2026-11-02", "time": "17:00",
+ "goal": "Baseline. Hook fixed (GUESS THE SONG); vary song, style and timbre so week 1 analytics show which ones lead.",
+ "videos": [
+  {"song": "mountain_king", "style": "midnight", "timbre": "glass",    "hook": "GUESS THE SONG", "seed": 1},
+  {"song": "fur_elise",     "style": "candy",    "timbre": "marimba",  "hook": "GUESS THE SONG", "seed": 2},
+  {"song": "korobeiniki",   "style": "mint",     "timbre": "kalimba",  "hook": "GUESS THE SONG", "seed": 3},
+  {"song": "ode_to_joy",    "style": "lilac",    "timbre": "musicbox", "hook": "GUESS THE SONG", "seed": 4},
+  {"song": "mountain_king", "style": "candy",    "timbre": "marimba",  "hook": "GUESS THE SONG", "seed": 5},
+  {"song": "fur_elise",     "style": "midnight", "timbre": "musicbox", "hook": "GUESS THE SONG", "seed": 6},
+  {"song": "korobeiniki",   "style": "lilac",    "timbre": "glass",    "hook": "GUESS THE SONG", "seed": 7}
+ ]}
