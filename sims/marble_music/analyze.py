@@ -31,8 +31,9 @@ def main(week=None):
     print(f"{len(rows)} videos with 7-day data\n")
     print("Top videos:")
     for r in sorted(rows, key=lambda r: -num(r["views_7d"]))[:10]:
-        print(f"  {num(r['views_7d']):>10,.0f}  viewed {r['swiped_away_pct'] and 100 - num(r['swiped_away_pct']) or '?':>5}%"
-              f"  avg {r['avg_view_pct'] or '?':>5}%  {r['slug']}")
+        sw, avp = num(r["swiped_away_pct"]), num(r["avg_view_pct"])
+        print(f"  {num(r['views_7d']):>10,.0f}  viewed {'?' if sw is None else f'{100 - sw:.0f}':>3}%"
+              f"  avg {'?' if avp is None else f'{avp:.0f}':>3}%  {r['slug']}")
     for factor in ("song", "style", "timbre", "hook"):
         g = defaultdict(list)
         for r in rows:
