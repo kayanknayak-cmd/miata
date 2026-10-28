@@ -1,0 +1,30 @@
+{
+ "name": "candy",
+ "bg_top": "#ffd9c7",
+ "bg_bottom": "#ffb3c6",
+ "palette": [
+  "#ff5d73",
+  "#ff9f1c",
+  "#ffd23f",
+  "#3bceac",
+  "#2ec4f1",
+  "#7b6cf6",
+  "#f15bb5",
+  "#00bb9f",
+  "#ff7b54",
+  "#9b5de5",
+  "#00a6fb",
+  "#fee440"
+ ],
+ "ball": "#2b2d42",
+ "ball_roughness": 0.08,
+ "pad_roughness": 0.3,
+ "pad_coat": 0.7,
+ "glow": 3.0,
+ "glow_after": 0.15,
+ "ring_glow": 3.0,
+ "sun": 1.4,
+ "world_strength": 1.1,
+ "bloom": 0.3,
+ "text": "#ffffff"
+}

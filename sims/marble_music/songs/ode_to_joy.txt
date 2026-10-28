@@ -1,0 +1,14 @@
+# Beethoven, Symphony No. 9, 4th mvt "Ode to Joy" theme (1824). Public domain. Own transcription.
+title: Ode to Joy
+composer: Beethoven
+bpm: 132
+beat: q
+notes:
+F#4/q F#4/q G4/q A4/q A4/q G4/q F#4/q E4/q
+D4/q D4/q E4/q F#4/q F#4/q. E4/e E4/h
+F#4/q F#4/q G4/q A4/q A4/q G4/q F#4/q E4/q
+D4/q D4/q E4/q F#4/q E4/q. D4/e D4/h
+E4/q E4/q F#4/q D4/q E4/q F#4/e G4/e F#4/q D4/q
+E4/q F#4/e G4/e F#4/q E4/q D4/q E4/q A3/h
+F#4/q F#4/q G4/q A4/q A4/q G4/q F#4/q E4/q
+D4/q D4/q E4/q F#4/q E4/q. D4/e D4+D3+A3/h

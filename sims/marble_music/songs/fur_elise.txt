@@ -1,0 +1,16 @@
+# Beethoven, "Für Elise" WoO 59 (1810). Public domain. Own transcription, opening A section.
+# Right hand + left-hand arpeggio merged into one continuous 16th-note line.
+title: Für Elise
+composer: Beethoven
+bpm: 66
+beat: q.
+repeat: 2
+notes:
+E5/s D#5/s E5/s D#5/s E5/s B4/s D5/s C5/s
+A4+A2/s E3/s A3/s C4/s E4/s A4/s
+B4+E2/s E3/s G#3/s E4/s G#4/s B4/s
+C5+A2/s E3/s A3/s E4/s E5/s D#5/s
+E5/s D#5/s E5/s B4/s D5/s C5/s
+A4+A2/s E3/s A3/s C4/s E4/s A4/s
+B4+E2/s E3/s G#3/s E4/s C5/s B4/s
+A4+A2/s E3/s A3/s r/s r/e

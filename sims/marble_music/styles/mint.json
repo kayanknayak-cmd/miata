@@ -1,0 +1,30 @@
+{
+ "name": "mint",
+ "bg_top": "#d8f5ea",
+ "bg_bottom": "#a8e6cf",
+ "palette": [
+  "#ef476f",
+  "#f78c6b",
+  "#ffd166",
+  "#06d6a0",
+  "#118ab2",
+  "#5e60ce",
+  "#e56b6f",
+  "#f4a261",
+  "#2a9d8f",
+  "#8338ec",
+  "#3a86ff",
+  "#fb5607"
+ ],
+ "ball": "#1d1d2c",
+ "ball_roughness": 0.1,
+ "pad_roughness": 0.35,
+ "pad_coat": 0.5,
+ "glow": 2.5,
+ "glow_after": 0.12,
+ "ring_glow": 2.5,
+ "sun": 1.4,
+ "world_strength": 1.1,
+ "bloom": 0.2,
+ "text": "#1d1d2c"
+}
